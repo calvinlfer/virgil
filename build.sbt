@@ -81,7 +81,7 @@ lazy val core =
         val zioV                  = "2.1.13"
         val magnoliaForScala2     = "com.softwaremill.magnolia1_2" %% "magnolia"      % "1.1.10"
         val scalaReflectForScala2 = "org.scala-lang"                % "scala-reflect" % scalaVersion.value
-        val magnoliaForScala3     = "com.softwaremill.magnolia1_3" %% "magnolia"      % "1.3.8"
+        val magnoliaForScala3     = "com.softwaremill.magnolia1_3" %% "magnolia"      % "1.3.9"
 
         val coreDependencies =
           Seq(
